@@ -1,0 +1,121 @@
+{
+  "storeInfo": {
+    "name": "Arya-Pedia",
+    "tagline": "Premium Digital Products",
+    "whatsappNumber": "6287878734811",
+    "minPurchase": 1
+  },
+  "voucherInfo": {
+    "title": "📋 Informasi Produk",
+    "details": ["Premium", "Full Garansi (snk berlaku)", "Proses Cepat", "Murah Meriah"]
+  },
+  "products": [
+    {
+      "id": "1",
+      "name": "Netflix Premium 1 Bulan",
+      "type": "Digital",
+      "price": 40000,
+      "originalPrice": 50000,
+      "image": "/netflix.png?height=200&width=300",
+      "description": "Netflix Premium adalah layanan streaming film dan serial berkualitas tinggi tanpa batas.",
+      "isHot": true,
+      "isSold": false,
+      "stock": 10,
+      "ketentuan": [
+        "Akun berlaku selama 1 bulan penuh",
+        "Tidak dapat di-refund setelah akun diberikan",
+        "Akun bersifat private, tidak boleh dibagikan",
+        "Garansi replace jika akun bermasalah dalam 3 hari",
+        "Proses pengiriman maksimal 1x24 jam"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Canva Premium 6 Bulan",
+      "type": "Digital",
+      "price": 20000,
+      "originalPrice": 30000,
+      "image": "/canva.png?height=200&width=300",
+      "description": "Akses semua fitur premium Canva selama 6 bulan untuk desain lebih cepat dan kreatif!",
+      "isHot": true,
+      "isSold": false,
+      "stock": 15,
+      "ketentuan": [
+        "Akun berlaku selama 6 bulan penuh",
+        "Akses ke semua template premium",
+        "Tidak dapat di-refund setelah login pertama",
+        "Garansi replace jika akun error dalam 7 hari",
+        "Dilarang mengganti password akun"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Canva Premium 1 Tahun",
+      "type": "Digital",
+      "price": 30000,
+      "originalPrice": 40000,
+      "image": "/canva.png?height=200&width=300",
+      "description": "Akses semua fitur premium Canva selama 1 Tahun untuk desain lebih cepat dan kreatif!",
+      "isHot": false,
+      "isSold": false,
+      "stock": 15,
+      "isFlashSale": true,
+      "ketentuan": [
+        "Akun berlaku selama 1 tahun penuh",
+        "Akses ke semua template dan fitur premium",
+        "Tidak dapat di-refund setelah login pertama",
+        "Garansi replace jika akun error dalam 7 hari",
+        "Dilarang mengganti password dan email akun",
+        "Bonus tutorial penggunaan Canva"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Capcut Pro 1 Bulan",
+      "type": "Digital",
+      "price": 20000,
+      "originalPrice": 35000,
+      "image": "/capcut.png?height=200&width=300",
+      "description": "Capcut Pro 1 Bulan - Edit video tanpa watermark, akses efek, filter, dan fitur premium eksklusif untuk hasil profesional.",
+      "isHot": false,
+      "isSold": false,
+      "stock": 0,
+      "ketentuan": [
+        "Akun berlaku selama 1 bulan penuh",
+        "Akses semua fitur pro tanpa watermark",
+        "Tidak dapat di-refund setelah akun diberikan",
+        "Garansi replace jika akun bermasalah dalam 5 hari",
+        "Dilarang sharing akun ke orang lain"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Starlight Mobile Legends",
+      "type": "Digital",
+      "price": 35000,
+      "originalPrice": 50000,
+      "image": "/starlight.jpg?height=200&width=300",
+      "description": "starlight mobile legends basic via gift",
+      "isHot": false,
+      "isSold": false,
+      "stock": 2,
+      "ketentuan": [
+        "Proses pengiriman delay 7-8 hari ",
+        "Wajib memberikan ID / Nickname yang benar",
+        "Garansi uang kembali jika gagal kirim"
+      ]
+    }
+  ],
+  "formLabels": {
+    "name": "Nama Lengkap",
+    "namePlaceholder": "Masukkan nama lengkap",
+    "email": "Email",
+    "emailPlaceholder": "Masukkan email",
+    "phone": "No. WhatsApp",
+    "phonePlaceholder": "Masukkan nomor WhatsApp"
+  },
+  "messages": {
+    "orderMessage": "Halo, saya ingin memesan:\n\n{orderDetails}\n\nTotal: {total}\n\nData Pembeli:\nNama: {name}\nEmail: {email}\nNo. HP: {phone}",
+    "checkoutButton": "Pesan via WhatsApp"
+  }
+}
